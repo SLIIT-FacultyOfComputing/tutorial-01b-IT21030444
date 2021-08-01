@@ -5,6 +5,22 @@
 #include <stdio.h>
 
 int main() {
+  int x,y;
+  float avg;
+
+  printf( "Input marks of subject 1 :" );
+  scanf("%d", &x);
+
+  printf( "Input marks of subject 2 :" );
+  scanf("%d", &y);
+
+  avg = ( x + y ) / 2.0;
+
+  printf( "Average is : %f", avg );
+
+
+
+
   
   return 0;
 }
